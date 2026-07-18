@@ -4,8 +4,9 @@ Predicting a new customer's expected lifetime value and repeat-purchase likeliho
 
 ## Live Demo
 
-- **API (Swagger UI):** `<your-render-url>/docs`
-- **Dashboard:** `<your-streamlit-cloud-url>`
+## Live Demo
+- **API (Swagger UI):** https://olist-clv-api.onrender.com/docs
+- **Dashboard:** https://ecommerce-clv-prediction-g3qdpwejzabbblx3yek4ta.streamlit.app
 
 *(Add these once deployed)*
 
