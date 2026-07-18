@@ -11,7 +11,7 @@ if uploaded:
         for _, row in df.iterrows():
             payload = row[['avg_order_value','n_items','n_distinct_categories',
             'delivery_days','avg_review_score']].to_dict()
-            resp = requests.post("http://localhost:8000/predict", json=payload)
+            resp = requests.post("https://olist-clv-api.onrender.com/predict", json=payload)
             results.append(resp.json())
     results_df = pd.DataFrame(results)
     final = pd.concat([df.reset_index(drop=True), results_df], axis=1)
